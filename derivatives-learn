@@ -1,0 +1,9 @@
+derivative of f(x) = f'(x) = dy/dx = d f(x) / dx
+
+f'(A) = 0
+f'(A.x^n) = A.n.(x ^ (n - 1)) (n != 0)
+f'(sin(x)) = cos x
+f'(cos(x)) = -sin x
+f'(e^x) = e^x = f(x)
+f^(ln x) = 1 / x
+
