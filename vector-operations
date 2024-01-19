@@ -1,0 +1,16 @@
+dot product: scalar value: similarity: a.b = |a|.|b| cos <theta>
+projection of a on b: a.b / |b| = |a| cos <theta>
+cross product: vector: difference: thumb rule: |axb| = |a|.|b| sin <theta>
+
+cross product: c = i|a2b3-a3b2| -j|a1b3-a3b1| + k|a1b2-a2b1|
+
+determinant: area [a b] = ad - bc
+                  [c d] 
+		  3x3 matrix cooficient x cross product
+
+rank of a matrix: number of dimensions spanned by the vectors: 
+  size: 3 by 2. order is not 3 x 2 = 
+ (row echelon form) (reduced row echelon form)
+span of a vector: u and v = a.u + b.v (plane formedby the vectors) 
+
+

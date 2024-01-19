@@ -1,0 +1,18 @@
+wolframalpha.com -> visualize functions
+desmos.com
+OriginLab
+
+1 / (1 + e ^ (-x)) -> Logistic function -> sigmoid function -> output between 0 and 1.
+
+limit should be finite from both left and right for a limit to be defined
+
+the logistic function is often used in mathematical modeling, including in the field of population dynamics. The logistic function is characterized by an S-shaped curve and is commonly employed to describe processes where growth is initially exponential but slows down as it approaches a limiting value. This is particularly relevant in situations where resources become a limiting factor.
+
+slope = tan <theta> = differential = rate of change
+
+Techniques like Principal Component Analysis (PCA) are used to reduce dimensions while retaining important information.
+
+RELU functions (infinity to infinity) replaced in hidden layers (good step function) to make neural network faster.
+
+Sigmoid give between 0 and 1 (good for classification) in the output layer of neural networks
+

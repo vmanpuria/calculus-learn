@@ -1,0 +1,77 @@
+Gradient Descent:  It's a common method used to minimize errors in machine learning. It iteratively adjusts parameters to find the minimum of the cost function.
+
+Other Methods:
+
+1. Conjugate Gradient: Optimizes quadratic functions efficiently. Used in specific optimization scenarios.
+
+2. Random Search: Randomly samples parameter combinations. Less efficient but simple.
+
+3. Genetic Algorithms: Mimic natural selection to evolve better parameter sets. Useful in complex optimization problems.
+
+4. Simulated Annealing: Inspired by annealing in metallurgy. Randomly explores solution space, allowing for escape from local minima.
+
+
+Choosing the Method: Depends on the problem, data, and computational resources. Gradient Descent is popular for its simplicity and effectiveness
+
+
+
+
+
+Vivek Manpuria (You) 11:48 AM 
+can u explain the mountain example once more
+IK Academic Support 11:51 AM 
+1. Imagine you are standing on a mountainous landscape, and your goal is to reach the lowest point, representing the minimum of a function.
+2. The height of the terrain represents the cost or loss associated with a particular point in the landscape. Lower points correspond to lower costs.
+3. Picture yourself blindfolded and standing on the mountain. Without being able to see the entire landscape, you want to find the lowest point.
+4. The gradient at your current location represents the direction of the steepest ascent. If you were to take a step in that direction, you would move upward.
+5. To descend, you need to move in the opposite direction of the gradient. The negative gradient points in the direction of the steepest descent.
+6. In an optimization algorithm like gradient descent, you take iterative steps in the direction of the negative gradient. With each step, you adjust your position to reduce the cost or loss.
+7. As you repeat this process, moving downhill in the direction of the negative gradient, you converge towards the minimum point—the lowest part of the landscape.
+
+In machine learning, the "mountain" represents the cost or loss function that the algorithm is trying to minimize, and the "descent" corresponds to adjusting the model parameters to reduce the error. The gradient provides the direction of the steepest ascent, and moving in the opposite direction helps the algorithm find the optimal parameters.
+
+The key idea is to iteratively adjust the parameters to minimize the cost, leveraging the gradient information to guide the descent towards the minimum point on the "landscape."
+
+
+
+
+
+Differential calculus plays a crucial role in machine learning, particularly in the optimization process during the training of models. 
+
+Mainly like, Gradient Descent (Cost Optimization, Update Rule), Backpropagation ( Chain Rule, Error Propagation), Optimization Algorithms (Adam, RMS Prop, Adagrad,), Regularization(L1 and L2), Sensitivity Analysis (Sensitivity to Input Changes).
+
+
+it is foundational for optimizing and training machine learning models. It facilitates the adjustment of model parameters, enabling the model to learn from data and make accurate predictions. Algorithms like gradient descent and backpropagation heavily rely on derivatives for effective model training.
+
+
+
+L'Hôpital's Rule provides a method for finding the limit of such expressions where there are Indeterminate forms by taking the derivatives of the numerator and denominator.
+
+L'Hôpital's Rule leverages the fact that if the limit  lim x→a f(x)/g(x) results in the indeterminate form , then the limit  lim x→a f'(x)/g'(x) may provide the same result.
+
+
+AUC-ROC stands for "Area Under the Receiver Operating Characteristic curve." It is a performance metric used in binary classification problems to evaluate the discriminatory power of a model.
+
+
+An AUC of 0.5 suggests that the model performs no better than random chance. An AUC of 1.0 indicates perfect discrimination, where the model can perfectly distinguish between the positive and negative classes.
+
+
+1. Classification: If the task involves categorizing data into predefined classes or labels.
+2. Regression: If the goal is to predict a continuous numerical value.
+3. Clustering: When identifying inherent groupings or clusters within the data.
+4. Dimensionality Reduction: If the focus is on reducing the number of features while preserving relevant information.
+
+
+To find the inflection point, we need to locate where the curvature of the graph changes.
+IK Academic Support 12:48 PM
+First derivative f'(x) = 3x^2 -4x -4
+Second derivative f''(x) =6x−4.
+Setting 6x−4=0 gives , x=2/3 .
+So, the point of inflection is (2/3, 47/27), where y is found by filling x=2/3 in f(x)
+
+
+several strategies can be employed to enhance the chances of finding the global minimum, which will be discussed further in the session, which are like Learning Rate Scheduling, Momentum, Random Initialization, Stochastic Gradient Descent (SGD) and combination of them all,
+
+Code:
+https://colab.research.google.com/drive/1LHt4uDoVPKUM-8sXjwR2XWIIWLF0FKAe
+

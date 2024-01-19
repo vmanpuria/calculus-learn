@@ -1,9 +1,22 @@
+derivative = slope = delta y / delta x
 derivative of f(x) = f'(x) = dy/dx = d f(x) / dx
 
 f'(A) = 0
-f'(A.x^n) = A.n.(x ^ (n - 1)) (n != 0)
+f'(A.x^n) = A.n.(x ^ (n - 1)) (n != 0)      #Power rule
 f'(sin(x)) = cos x
 f'(cos(x)) = -sin x
 f'(e^x) = e^x = f(x)
 f^(ln x) = 1 / x
 
+d/dx of f(x).g(x) = f'(x).g(x) + f(x).g'(x)       #Product rule
+d/dx of f(x) / g(x) = (f'(x).g(x) - f(x).g'(x)) / (g(x) ^ 2)  #Quotient rule
+
+f'(tan x) = f'(sin x / cos x) = 1 / cos^2(x) = sec ^ 2 (x) (secant square x)
+f'(cot x) = f'(cos x / sin x) = - 1 / sin^2(x) = - csc^2(x) (cosecant square x)
+sin ^ 2 x + cos ^ 2 x = 1
+
+f'(sec x) = f'(1 / cos x) = (sin x / cos^2(x)) = tan x . sec x
+f'(csc x) = f'(1 / sin x) - - (cos x / sin^2 (x)) = - cot x / sin x
+
+#Chain rule
+d/dx of f(g(x)) = f'(g(x)).g'(x)
